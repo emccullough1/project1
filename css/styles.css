@@ -1,18 +1,14 @@
 img {
     width: 20%;
     margin: 20px;
-    border: 6px solid rgb(0, 0, 0);
+    border: 6px solid;
     border-radius: 10px;
 
 }
 
 img:hover {
-    transform: scale(1.10);
+    transform: scale(1.1);
     transition: .6s;
-}
-
-h1 {
-    align-self: center;
 }
 
 h1, h4 {
@@ -36,7 +32,7 @@ p, h4, ul {
     display: block;
 }
 hr {
-    border-width: 3px;
+    border-width: 1px;
     border-color: black;
     border-style: solid;
 }
