@@ -1,0 +1,22 @@
+img {
+    width: 200px;
+    margin: 20px;
+    border: 6px solid rgb(27, 45, 126);
+    border-radius: 10px;
+
+}
+
+img:hover {
+    transform: scale(1.25);
+    transition: .6s;
+}
+
+h1, h4 {
+    font-family: 'Playfair Display', serif;
+}
+
+body {
+    background-color: whitesmoke;
+    font-family: 'Open Sans', sans-serif;
+}
+
