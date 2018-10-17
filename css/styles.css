@@ -1,5 +1,5 @@
 img {
-    width: 20%;
+    width: 300px;
     margin: 20px;
     border: 6px solid;
     border-radius: 10px;
@@ -14,25 +14,32 @@ img:hover {
 h1, h4 {
     font-family: 'Playfair Display', serif;
     font-weight: bold;
+    padding: 0px;
+    margin: 0px;
 }
 
 body {
-    background-color: whitesmoke;
+    background-color: gainsboro;
     font-family: 'Open Sans', sans-serif;
+    line-height: 1.5em;
 }
 
-content {
-    max-width: 600px;
+.content {
+    max-width: 45em;
     margin-right:50px ;
     margin-left: 70px;
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
 }
 
-header {
+.header {
     margin-left: auto;
     margin-right: auto;
     display: block;
     text-align:center;
 }
+
 hr {
     border-width: 1px;
     border-color: black;
@@ -46,4 +53,8 @@ i {
 a {
     color: black;
     font-weight: bold;
+}
+
+#tab {
+    text-indent: 2em;
 }
